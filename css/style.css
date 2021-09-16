@@ -1,14 +1,107 @@
 @import url(/css/_nullstyle.css);
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-
 body{
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
+/* ------------------------------------ */
+.menu {
+    
+}
+.menu-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.menu-logo img {
+    max-width: 150px;
+}
+.menu-link ul{
+    display: flex;
+}
+.menu-link li{
+    margin: 0 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+}
+.menu-link li:hover{
+    margin: 0 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F53855;
+}
+.menu-btn a{
+    margin: 0 15px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+    transition: 0.5s;
+}
+.menu-btn a:hover{
+    margin: 0 15px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F53855;
+    transition: 0.2s;
+}
+.menu-btn button{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F53855;
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 2px solid #F53855;
+    background: transparent;
+    transition: 0.2s;
+}
+.menu-btn button:hover{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 13px 45px;
+    border-radius: 50px;
+    background: #F53855;
+    transition: 0.5s;
+}
+/* ------------------------------------ */
 .section-1 {
 
-    height: 100vh;
+    height: 90vh;
 }
 .section-1-content {
     max-width: 1210px;
@@ -91,9 +184,9 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .section-2-flex {
-
     display: flex;
     align-items: center;
 }
@@ -103,6 +196,7 @@ body{
 }
 .content-2-img img{
     width: 55px;
+
 }
 .content-2-img{
     margin-right: 36px;
@@ -127,20 +221,19 @@ body{
     text-align: left;
     color: #4F5665;
 }
-
 .img-line{
     width: 3px;
+    height: 100px;
 }
-
 .hi{
     height: 400px;
 }
-
 /* ----------- Section 3 ------------- */
 
 .section-3 {
-    margin: 30px 0;
+    margin: 80px 0;
     padding: 60px 0;
+    margin-top: 150px;
 }
 .section-3-content {
     max-width: 1140px;
@@ -344,4 +437,255 @@ body{
     letter-spacing: 0px;
     color: white;
     
+}
+/* --------------- section 5 ------------ */
+.section-5 {
+    margin: 60px 0;
+}
+.section-5-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-5-title {
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+    max-width: 360px;
+    
+}
+.sec-5-subtitle {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 550px;
+}
+.sec-5-img {
+    max-width: 1060px;
+    margin-top: 155px;
+}
+
+/* ------------ Section 6 -------------- */
+
+.section-6 {
+}
+.section-6-content {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.sec-6-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img6{
+    max-width: 200px;
+    max-height: 50px;
+}
+.img6-1{
+    max-width: 200px;
+    max-height: 200px;
+}
+/* ------------ Section 7 --------------- */
+
+.section-7 {
+    margin: 60px 0;
+}
+.section-7-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-7-title {
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+    max-width: 450px;
+}
+.section-7-subtitle {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+    max-width: 555px;
+}
+.section-7-flex {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.section-7-block {
+    max-width: 400px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.5s;
+}
+.section-7-block:hover {
+    max-width: 400px;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.5s;
+}
+.block-7-name {
+    display: flex;
+    align-items: center;
+}
+.block-7-photo img {
+    max-width: 50px;
+}
+.block-7-nickname {
+    margin-left: 20px;
+}
+.name-7 {
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;    
+}
+.surname-7 {
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;    
+}
+.block-7-valuation {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;    
+    margin-left: 108px;
+    display: flex;
+    align-items: center;
+}
+.block-7-valuation img{
+    max-width: 15px;
+}
+.block-7-text {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+    
+}
+/* -------------- Section 8 ----------- */
+
+.section-8{
+    height: 233px;
+}
+.section-8-content {
+    max-width: 1140px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 20px 0px #0d102517;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    align-items: center;
+}
+.block-8{
+    max-width: 410px;
+}
+.block-8 h2{
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+
+.block-8 p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;    
+    margin-top: 20px;
+}
+
+.block-8 button{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    border: 2px solid #F53838;
+    color: #F53838;
+    transition: 0.5s;
+}
+.block-8 button:hover{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    color: white;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    transition: 0.5s;
+    box-shadow: 0 5px 5px 0px #f5383881;
+}
+
+/* -------------- footer ------------- */
+.footer{
+    height: 500px;
+}
+.footer-content {
+    max-width: 1140px;
 }
