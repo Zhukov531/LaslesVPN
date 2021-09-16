@@ -1,0 +1,295 @@
+@import url(./_nullstyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.section-1 {
+
+    height: 100vh;
+}
+.section-1-content {
+    max-width: 1210px;
+    margin: 0 auto;
+
+    height: 100%;
+}
+.header {
+
+
+}
+.section-1-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+}
+.section-1-flex {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.section-1-flex-content {
+    width: 555px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.section-1-flex-content img {
+    width: 611px;
+    
+}
+.section-1-h1 {
+    font-family: Rubik;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+.section-1-p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+
+}
+.section-1-buuton-a button{
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #F53838;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 0 5px 0 #F53838;
+}
+.section-1-button{
+}
+/* ----------------- section 2 --------------- */
+
+.section-2{
+
+    height: 200px;
+}
+.section-2-content {
+    max-width: 1140px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 20px 0px #0d102517;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.section-2-flex {
+
+    display: flex;
+    align-items: center;
+}
+.flex-2-content {
+    display: flex;
+    align-items: center;
+}
+.content-2-img img{
+    width: 55px;
+}
+.content-2-img{
+    margin-right: 36px;
+}
+.content-2-title {
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+.content-2-subtitle {
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+}
+
+.img-line{
+    width: 3px;
+}
+
+.hi{
+    height: 400px;
+}
+
+/* ----------- Section 3 ------------- */
+
+.section-3 {
+    margin: 30px 0;
+    padding: 60px 0;
+}
+.section-3-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: 0px 35px 20px 0px #0d102517;
+    border-radius: 10px;
+}
+.section-3-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-3-block img{
+    max-width: 510px;
+}
+.section-3-img {
+}
+.section-3-block{
+    max-width: 430px;
+}
+.section-3-title {
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+.section-3-subtitle {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.section-3-ul {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.li-3{
+    background: url(../img/Group\ 1120.png) no-repeat;
+    background-size: 20px;
+    background-position: center left;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+/* ------------ Section 4 --------- */
+
+.section-4 {
+    padding: 30px 0;
+}
+.section-4-content {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-4-title {
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+    
+}
+.section-4-subtitle {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4F5665;
+}
+
+.section-4-flex {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-4-box {
+    padding: 50px 70px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec-4-img {
+    max-width: 145px;
+
+}
+.section-4-block-title {
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 40px;
+}
+.sec-4-ul {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+    flex: 1;
+    margin-top: 30px;
+}
+.sec-4-ul li{
+    margin-bottom: 10px;
+}
+.section-4-titlebut {
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 50px;
+}
+.sec-4-button {
+    width: 178px;
+    height: 45px;
+    margin-top: 20px;
+}
