@@ -684,8 +684,84 @@ body{
 
 /* -------------- footer ------------- */
 .footer{
-    height: 500px;
+    padding: 70px 0 140px 0;
+    margin: 100px 0;
 }
 .footer-content {
     max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link1 {
+    max-width: 340px;
+}
+.footer-logo img{
+    max-width: 150px;
+}
+.footer-p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+    color: #4F5665;
+}
+.footer-soc{
+    margin-top: 30px;
+}
+.footer-soc img{
+    max-width: 50px;
+    background: #F53838;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.footer-copyr {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #AFB5C0;
+    margin-top: 30px;
+}
+.footer-link2 {
+    
+}
+.footer-link2 h2{
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;    
+}
+.footer-link2 ul{
+    margin-top: 20px;
+    color: #4F5665;
+}
+.footer-link2 li{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;    
+}
+.footer-link2 li:hover{
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F53838;    
 }
