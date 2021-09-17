@@ -126,7 +126,7 @@ body{
 }
 .section-1-flex {
     display: flex;
-    justify-content: space-between;`
+    justify-content: space-between;
 }
 .section-1-flex-content {
     width: 555px;
